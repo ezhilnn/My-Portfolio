@@ -1,0 +1,49 @@
+.link-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10vw;
+}
+.c-1{
+    min-height: 90vh;
+}
+.lis{
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+.lis:hover {
+    transform: scale(1.2); /* Increase the size by 1.4x on hover */
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);  */
+}
+.line{
+    background-color: white;
+}
+.title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.content{
+    font-size: 20px;
+}
+.sub-1{
+    font-size: 35px;
+    margin: 20px 0px;
+}
+li{
+    margin: 15px 0px;
+    font-size: 19px;
+}
+.cot {
+    overflow-y: auto; /* Apply auto scrolling */
+    max-height: 80vh; /* Set a maximum height */
+    margin-bottom: 25px;
+    overflow-x: hidden;
+}
+.linux{
+    margin-left: 28px;
+}
+.skills{
+    margin-bottom: 5vh;
+}

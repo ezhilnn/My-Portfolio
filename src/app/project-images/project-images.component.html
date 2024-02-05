@@ -1,0 +1,52 @@
+<div class="d-flex align-items-center c-1">
+    <div class="col-1"></div>
+    <div class="col-6 row cot">
+      <div class="interns">
+        <div class="p">
+          <div class="sub-1 text-center">Stock Market Web application</div>
+          <div class="slideshow-container">
+            <div *ngFor="let image of images; let i = index" class="slide" [style.display]="i === currentIndex1 ? 'block' : 'none'">
+              <img [src]="image" alt="Slide {{ i + 1 }}" width="100%">
+            </div>
+  
+            <a (click)="prevSlide(1)" class="prev">&#10094;</a>
+            <a (click)="nextSlide(1)" class="next">&#10095;</a>
+          </div>
+        </div>
+        <div class="p">
+          <div class="sub-1 text-center">Finance Calculator</div>
+          <div class="slideshow-container">
+            <div *ngFor="let image of imagex; let i = index" class="slide" [style.display]="i === currentIndex2 ? 'block' : 'none'">
+              <img [src]="image" alt="Slide {{ i + 1 }}" width="100%">
+            </div>
+  
+            <a (click)="prevSlide(2)" class="prev">&#10094;</a>
+            <a (click)="nextSlide(2)" class="next">&#10095;</a>
+          </div>
+        </div>
+        <div class="p">
+          <div class="sub-1 text-center">Blog Website</div>
+          <div class="slideshow-container">
+            <div *ngFor="let image of imageb; let i = index" class="slide" [style.display]="i === currentIndex3 ? 'block' : 'none'">
+              <img [src]="image" alt="Slide {{ i + 1 }}" width="100%">
+            </div>
+  
+            <a (click)="prevSlide(3)" class="prev l">&#10094;</a>
+            <a (click)="nextSlide(3)" class="next l">&#10095;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-1"></div>
+    <div class="col-4 link-s ">
+      <div class="lis mb-4" routerLink="/personal-details">Personal Details</div>
+      <div class="lis mb-4" routerLink="/education">Education</div>
+      <div class="lis mb-4" routerLink="/skills">Skills</div>
+      <div class="lis mb-4" routerLink="/projects">Projects</div>
+      <div class="lis mb-4" routerLink="/experience">Experience</div>
+      <div class="lis mb-4" routerLink="/achievements">Achievements</div>
+      <div class="lis mb-4" routerLink="/certificates">Certifications</div>
+      <div class="lis mb-4" routerLink="/contact">Contact</div>
+    </div>
+  </div>
+  

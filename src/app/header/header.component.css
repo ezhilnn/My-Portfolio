@@ -1,0 +1,32 @@
+.fl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end; /* Align items to the right */
+    margin-right: 5px; /* Adjusted margin to the right */
+}
+.con-1{
+    align-items: center;
+    margin-top: 10px;
+
+}
+.li{
+    margin-left: 80px;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+.logo{
+    margin-left: 20px;
+}
+
+.left{
+    margin-left: 10px;
+}
+.li:hover {
+    transform: scale(1.4); /* Increase the size by 1.4x on hover */
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);  */
+}
+a{
+    text-decoration: none;
+    color: white;
+}

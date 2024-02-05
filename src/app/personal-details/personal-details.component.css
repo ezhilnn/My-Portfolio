@@ -1,0 +1,36 @@
+.link-s{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10vw;
+}
+.c-1{
+    height: 80vh;
+}
+.lis{
+    font-size: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.15s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+.lis:hover {
+    transform: scale(1.2); /* Increase the size by 1.4x on hover */
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);  */
+}
+.line{
+    background-color: white;
+}
+.title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.content{
+    font-size: 20px;
+}
+td{
+    padding-bottom: 30px;
+    font-size: 22px;
+}
+.row-1{
+    margin-top: 20px;
+}
