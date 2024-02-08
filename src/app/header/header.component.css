@@ -30,3 +30,15 @@ a{
     text-decoration: none;
     color: white;
 }
+h1.logo {
+    font-family: 'Arial', sans-serif;
+    font-size: 38px;
+    color: #ffffff; /* Change color as needed */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+
+/* Optional hover effect */
+h1.logo:hover {
+    color: #007bff; /* Change color on hover */
+}

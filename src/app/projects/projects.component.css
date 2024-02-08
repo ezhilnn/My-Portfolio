@@ -37,6 +37,7 @@
 }
 .cont{
     font-weight: 450;
+    margin-top: 25px;
 
 }
 li{
@@ -53,4 +54,9 @@ li{
     margin-bottom: 15px;
     transition: transform 0.15s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
-
+.stack{
+    margin-top: 10px;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 550;
+}
