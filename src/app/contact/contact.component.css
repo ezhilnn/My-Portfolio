@@ -42,3 +42,18 @@
     font-size: 33px;
     font-weight: 700;
 }
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated-text {
+    animation: slideInFromLeft 1.5s ease-in-out;
+  }

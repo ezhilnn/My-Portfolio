@@ -36,9 +36,11 @@ h1.logo {
     color: #ffffff; /* Change color as needed */
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    cursor: pointer;
 }
 
 /* Optional hover effect */
 h1.logo:hover {
     color: #007bff; /* Change color on hover */
+    cursor: pointer;
 }

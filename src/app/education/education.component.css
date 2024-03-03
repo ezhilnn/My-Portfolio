@@ -45,3 +45,17 @@
     margin-top: 2px;
     margin-bottom: 5px;
 }
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animated-text {
+    animation: slideInFromLeft 1.5s ease-in-out;
+  }
